@@ -9,6 +9,7 @@ import java.awt.Color;
  * source image ("gs"). For example, to create a grayscale version of thor.ppm, use:
  * java Editor1 thor.ppm gs
  */
+import java.awt.Color;
 public class Editor1 {
 
 	public static void main (String[] args){
