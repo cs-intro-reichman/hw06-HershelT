@@ -111,7 +111,7 @@ public class ImageProcessingTester {
         sampleImage1 = Runigram.scaled(sampleImage1, 200, 200);
         sampleImage2 = Runigram.scaled(sampleImage2, 200, 200);
 
-        Color[][] result = Runigram.blend(sampleImage1, sampleImage2, 0.5);
+        Color[][] result = Runigram.blend(sampleImage2, sampleImage1, 0.5);
         print(result);
     }
 }
