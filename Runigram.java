@@ -10,30 +10,31 @@ public class Runigram {
 		//// Hide / change / add to the testing code below, as needed.
 		
 		// Tests the reading and printing of an image:	
-		Color[][] tinypic = read("tinypic.ppm");
-		print(tinypic);
+		// Color[][] tinypic = read("tinypic.ppm");
+		// print(tinypic);
 
-		// Creates an image which will be the result of various 
-		// image processing operations:
-		Color[][] imageOut;
+		// // Creates an image which will be the result of various 
+		// // image processing operations:
+		// Color[][] imageOut;
 
-		// Tests the horizontal flipping of an image:
-		imageOut = flippedHorizontally(tinypic);
-		System.out.println();
-		print(imageOut);
+		// // Tests the horizontal flipping of an image:
+		// imageOut = flippedHorizontally(tinypic);
+		// System.out.println();
+		// print(imageOut);
 
-		System.out.println();
-		print(tinypic); 
+		// System.out.println();
+		// print(tinypic); 
 
-		Color[][] thor = read("thor.ppm");
-		Color[][] thorGray = grayScaled(thor);
-		// displayImage(thorGray);
-		Color[][] thorScaled = scaled(thor, 1000, 1000);
-		// displayImage(thorScaled);
+		// Color[][] thor = read("thor.ppm");
+		// Color[][] thorGray = grayScaled(thor);
+		// // displayImage(thorGray);
+		// Color[][] thorScaled = scaled(thor, 1000, 1000);
+		// // displayImage(thorScaled);
 
 		//// Write here whatever code you need in order to test your work.
 		//// You can reuse / overide the contents of the imageOut array.
 	}
+	//helper function to setcanvas and display image for testing purposes
 	public static void displayImage(Color[][] image) {
 	    setCanvas(image);
 	    display(image);
